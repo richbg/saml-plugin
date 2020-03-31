@@ -25,7 +25,7 @@ under the License.
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>3.57</version>
+    <version>3.55</version>
   </parent>
 
   <artifactId>saml</artifactId>
@@ -46,7 +46,7 @@ under the License.
     <changelist>-SNAPSHOT</changelist>
     <jenkins.version>2.176.1</jenkins.version>
     <java.level>8</java.level>
-    <jcasc.version>1.38</jcasc.version>
+    <jcasc.version>1.35</jcasc.version>
   </properties>
 
   <licenses>
@@ -121,7 +121,7 @@ under the License.
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>mailer</artifactId>
-      <version>1.30</version>
+      <version>1.29</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -132,7 +132,7 @@ under the License.
     <dependency>
       <groupId>net.shibboleth.utilities</groupId>
       <artifactId>java-support</artifactId>
-      <version>7.5.1</version>
+      <version>7.2.0</version>
       <exclusions>
         <exclusion>
           <groupId>commons-codec</groupId>
